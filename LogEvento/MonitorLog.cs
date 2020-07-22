@@ -40,11 +40,9 @@ namespace LogEvento
         /// </summary>
         public void monitorear()
         {
-
             // Valida si existe el directorio a monitorear, lanza una exepción de tipo monitorException.
             if (!Directory.Exists(this._directorio))
             {
-
                 Directory.CreateDirectory(this._directorio);
                 PrometheusLog.prometheo_exception.Inc(1);
                 throw new monitorException($"El directorio {this._directorio} no existe, debe proporcionar una carpeta para poder monitorear los Log de la aplicación SIMF.. ");
