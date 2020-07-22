@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace LogEvento.archAtencAcciion
 {
@@ -10,6 +11,7 @@ namespace LogEvento.archAtencAcciion
     {
         // Declaración del manejador de log.
         private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static readonly String regexLeveMask = @"^(INFO|ERROR|DEBUG|TRACE|WARN|FATAL|OFF|ALL)$";
 
         public Action<String, String> moverarch = (orgArch, destArch) => File.Move(orgArch, destArch);
 
@@ -47,6 +49,8 @@ namespace LogEvento.archAtencAcciion
         public Func<String, List<String>, List<String>> extraLogLevel = (level, listReg) => {
             try
             {
+                Regex regexLevel = new Regex(regexLeveMask, RegexOptions.IgnoreCase);
+                if (!regexLevel.IsMatch(level)) { throw new monitorException("Debe ser un nivel del log ejem: (INFO ERROR DEBUG...), no puede ser {0}"); };
                 return listReg.Where(x => x.Contains("[" + level + "]", StringComparison.OrdinalIgnoreCase)).ToList();
             }
             catch (Exception e) {
