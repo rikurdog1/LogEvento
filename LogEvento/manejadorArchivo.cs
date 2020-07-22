@@ -72,6 +72,7 @@ namespace LogEvento
             action_lanzMail.Invoke((int)PrometheusLog.prometheo_error.Value, ruta);
            
             a.extraLogLevel.Invoke("INFO", a.LeerAllrow.Invoke(ruta))?. ForEach(a => Console.WriteLine("Reg level: " + a.ToString()));
+
         }
 
         /// <summary>
