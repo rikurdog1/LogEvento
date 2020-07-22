@@ -11,5 +11,4 @@ namespace LogEvento
     class monitorException : Exception{
         public monitorException(String mensaje) : base(mensaje)  { }
     }
-
 }
