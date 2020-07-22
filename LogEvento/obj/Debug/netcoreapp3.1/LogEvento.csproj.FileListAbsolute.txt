@@ -1,0 +1,75 @@
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.exe
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.deps.json
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.runtimeconfig.json
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.runtimeconfig.dev.json
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.pdb
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csprojAssemblyReference.cache
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.AssemblyInfo.cs
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.pdb
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.genruntimeconfig.cache
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CopyComplete
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.MailKit.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\User\source\repos\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CoreCompileInputs.cache
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.exe
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.deps.json
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.runtimeconfig.json
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.runtimeconfig.dev.json
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.pdb
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.MailKit.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.AssemblyInfoInputs.cache
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.AssemblyInfo.cs
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CopyComplete
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.pdb
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.genruntimeconfig.cache
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\Prometheus.NetCore.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\Prometheus.NetStandard.dll
+C:\Users\luis\source\repos\proyectos_Kafka\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.exe
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.deps.json
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.runtimeconfig.json
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.runtimeconfig.dev.json
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.pdb
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\NLog.MailKit.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\Prometheus.NetCore.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\Prometheus.NetStandard.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csprojAssemblyReference.cache
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.AssemblyInfo.cs
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CopyComplete
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.pdb
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.genruntimeconfig.cache
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\LogEvento.dll.config
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CoreCompileInputs.cache
