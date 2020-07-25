@@ -36,7 +36,7 @@ namespace LogEvento.archAtencAcciion
             try
             {
                 List<String> reg = File.ReadAllLines(rutaArch).ToList();
-                reg.ForEach(r => Console.WriteLine("Datos de los reg: " + r.ToString()));
+                reg.ForEach(r => Console.WriteLine("Datos de los reg: {0}", r.ToString()));
                 return reg;
             }
             catch (Exception e) {
@@ -50,7 +50,7 @@ namespace LogEvento.archAtencAcciion
             try
             {
                 Regex regexLevel = new Regex(regexLeveMask, RegexOptions.IgnoreCase);
-                if (!regexLevel.IsMatch(level)) { throw new monitorException("Debe ser un nivel del log ejem: (INFO ERROR DEBUG...), no puede ser {0}"); };
+                if (!regexLevel.IsMatch(level)) { throw new monitorException("Debe ser un nivel del log ejem: (INFO ERROR DEBUG...), no puede ser " + level); };
                 return listReg.Where(x => x.Contains("[" + level + "]", StringComparison.OrdinalIgnoreCase)).ToList();
             }
             catch (Exception e) {
