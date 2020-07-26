@@ -1,11 +1,10 @@
-﻿using NLog;
+﻿using LogEvento.archAtencAcciion;
+using NLog;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Configuration;
-using LogEvento.archAtencAcciion;
 
 namespace LogEvento
 {
@@ -30,10 +29,12 @@ namespace LogEvento
                 case "prueba.log":
                     archLavel(ruta);
                     break;
+
                 case "caracas.log":
                     //archPrueba(ruta);
                     arcUtili.adjuntarrarch.Invoke(@ConfigurationManager.AppSettings["logDir"], "prueba.log", @ConfigurationManager.AppSettings["logDirAtendidos"]);
                     break;
+
                 default:
                     PrometheusLog.prometheo_warning.Inc(1);
                     logger.Warn("No existe manejador para este archivo donde visualizar el registro.");

@@ -2,7 +2,6 @@
 using NLog.Fluent;
 using System;
 using Prometheus;
-using System.Threading;
 using System.Configuration;
 
 namespace LogEvento
