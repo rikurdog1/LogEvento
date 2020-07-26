@@ -14,7 +14,7 @@ namespace LogEvento
         static void Main(string[] args) {
 
             // Inicializar variables para Nlog
-            NlogIni();
+            //NlogIni();
 
             MetricServer metricServer = new MetricServer(port: 7073);
             int milliSecondsToSleep = 500;
@@ -67,18 +67,12 @@ namespace LogEvento
         public static void NlogIni() {
         
         // Configuracion para el correo --------------------------------------------------------------
-            GlobalDiagnosticsContext.Set("Empresa", ConfigurationManager.AppSettings["Empresa"]);
             GlobalDiagnosticsContext.Set("usuario", ConfigurationManager.AppSettings["usuario"]);
             GlobalDiagnosticsContext.Set("clave", ConfigurationManager.AppSettings["clave"]);
             GlobalDiagnosticsContext.Set("email", ConfigurationManager.AppSettings["email"]);
             GlobalDiagnosticsContext.Set("to", ConfigurationManager.AppSettings["to"]);
 
-        // Cinfiguracion para los log ----------------------------------------------------------------
-            GlobalDiagnosticsContext.Set("logDir", ConfigurationManager.AppSettings["logDir"]);
-            GlobalDiagnosticsContext.Set("logArchivo", ConfigurationManager.AppSettings["logArchivo"]);
-
             //LogManager.Configuration.Variables["UserId_From_DB"] = "42";
         }
-
     }
 }

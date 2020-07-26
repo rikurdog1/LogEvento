@@ -16,13 +16,7 @@ namespace LogEvento
         // Declaración del manejador de log.
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
-        ArchUtiliti a = new ArchUtiliti();
-
-        public Action<int,String> action_lanzMail = (umbral, arcRuta) => {
-            if (umbral == 0) return;
-            if ((umbral == 1) || ((umbral % Convert.ToInt32(ConfigurationManager.AppSettings["sug_umbral_Error"])) == 0)) 
-                logger.Error("Existen {0} errores sin atender en la ruta {1}.", umbral, arcRuta);
-            };
+        ArchUtiliti arcUtili = new ArchUtiliti();
 
             /// <summary>
             /// Interpreta con el nombre del archivo la acción a ejecutar para el archivo de log.
@@ -31,14 +25,14 @@ namespace LogEvento
             /// <param name="nombre">nombre String Nombre del archivo.</param>
             /// 
             /// </summary>
-            public void Accion(String ruta, String nombre) {
-            switch (nombre) {
+            public void Accion(String ruta, String archNombre) {
+            switch (archNombre) {
                 case "prueba.log":
                     archLavel(ruta);
                     break;
                 case "caracas.log":
                     //archPrueba(ruta);
-                    a.adjuntarrarch.Invoke(@"C:\Proyectos C#\LogSIMF\Prueba.log", "Prueba.log", @ConfigurationManager.AppSettings["logDirAtendidos"]);
+                    arcUtili.adjuntarrarch.Invoke(@ConfigurationManager.AppSettings["logDir"], "prueba.log", @ConfigurationManager.AppSettings["logDirAtendidos"]);
                     break;
                 default:
                     PrometheusLog.prometheo_warning.Inc(1);
@@ -67,11 +61,12 @@ namespace LogEvento
             PrometheusLog.prometheo_error.Set(lineas.Where(x => x.Contains("[ERROR]", StringComparison.OrdinalIgnoreCase)).Count());
            
             Console.WriteLine(PrometheusLog.prometheo_info.Value);
+            Console.WriteLine(PrometheusLog.prometheo_warning.Value);
             Console.WriteLine(PrometheusLog.prometheo_error.Value);
 
-            action_lanzMail.Invoke((int)PrometheusLog.prometheo_error.Value, ruta);
-           
-            //a.extraLogLevel.Invoke("INFO", a.LeerAllrow.Invoke(ruta))?. ForEach(a => Console.WriteLine("Reg level: " + a.ToString()));
+            arcUtili.action_lanzMail.Invoke((int)PrometheusLog.prometheo_error.Value, ruta);
+
+            //arcUtili.extraLogLevel.Invoke("INFO", a.LeerAllrow.Invoke(ruta))?. ForEach(a => Console.WriteLine("Reg level: " + a.ToString()));
         }
 
         /// <summary>

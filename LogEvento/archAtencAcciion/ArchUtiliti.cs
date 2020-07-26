@@ -1,6 +1,7 @@
 ﻿using NLog;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -17,13 +18,15 @@ namespace LogEvento.archAtencAcciion
 
         // Mueve el contenido de un archivo (orgArch) a otro archivo de texto en la ruta (dir + destArch) conservando el nombre del archivo origen (orgArch)
         // colocando un prefijo de yyyyMMdd.
-        public Action<String, String, String> adjuntarrarch = (orgArch, destArch, dir) => {
+        public Action<String, String, String> adjuntarrarch = (dirOrg, archNombre, dirDest) => {
             try {
-                if (!Directory.Exists(dir)) { Directory.CreateDirectory(dir); }
-                String destino = dir + DateTime.Now.ToString("yyyyMMdd") + destArch;
-                File.AppendAllLines(destino, File.ReadAllLines(orgArch));
-                File.WriteAllText(orgArch, string.Empty);
-                logger.Info("Se adjuntaron los eventos del archivo {0} al log de atendidos en el archivo {1}.", orgArch, destino);
+                if (!Directory.Exists(dirDest)) { Directory.CreateDirectory(dirDest); }
+                String origen = dirOrg + archNombre;
+                String destino = dirDest + DateTime.Now.ToString("yyyyMMdd") + archNombre;
+                File.AppendAllLines(destino, File.ReadAllLines(origen));
+                File.WriteAllText(origen, string.Empty);
+
+                logger.Info("Se adjuntaron los eventos del archivo {0} al log de atendidos en el archivo {1}.", origen, destino);
             }
             catch (Exception e)
             {
@@ -32,7 +35,7 @@ namespace LogEvento.archAtencAcciion
         };
 
         // Retorna una lista (reg) todos los registrod de un archivo (rutaArch).
-        public Func<String, List<String>> LeerAllrow = rutaArch => {
+        public Func<String, List<String>> LeerAllrow = (rutaArch) => {
             try
             {
                 List<String> reg = File.ReadAllLines(rutaArch).ToList();
@@ -57,6 +60,13 @@ namespace LogEvento.archAtencAcciion
                 logger.Info("excepción al extraer level (extraLogLevel) {0}", e.Message);
                 return null;
             }        
+        };
+
+        // Lanza el correo de error cuando este en el umbral inicial o el siguiente
+        public Action<int, String> action_lanzMail = (umbral, arcRuta) => {
+            if (umbral == 0) return;
+            if ((umbral == Convert.ToInt32(ConfigurationManager.AppSettings["ini_umbral_Error"])) || ((umbral % Convert.ToInt32(ConfigurationManager.AppSettings["sug_umbral_Error"])) == 0))
+                logger.Error("Existen {0} errores sin atender en la ruta {1}.", umbral, arcRuta);
         };
     }
 }
