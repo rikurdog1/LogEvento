@@ -19,6 +19,7 @@ namespace LogEvento.archAtencAcciion
         // Mueve el contenido de un archivo (orgArch) a otro archivo de texto en la ruta (dir + destArch) conservando el nombre del archivo origen (orgArch)
         // colocando un prefijo de yyyyMMdd.
         public Action<String, String, String> adjuntarrarch = (dirOrg, archNombre, dirDest) => {
+            
             try {
                 if (!Directory.Exists(dirDest)) { Directory.CreateDirectory(dirDest); }
                 String origen = dirOrg + archNombre;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7Pv6ZPmNlwcSRBlYTX3ForgnldCMZ6q4hrbwvRC1bc6seQr1NAm6SoOdcyWKt1Q38yK8gw/i5QOHqVIUrTOx4A==",
+  "dgSpecHash": "iQ4aUepX9b8b7Z+m36X8941pvc0IzTvyOFoxgjfc+GTHKBBStMm5xBgQAyI6WSpC/9VZVh7RN7ySazFpRzZ83A==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\SIMF Documentos\\Test\\LogEvento2\\LogEvento\\LogEvento\\LogEvento.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\User\\.nuget\\packages\\nlog.config\\4.7.2\\nlog.config.4.7.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\nlog.mailkit\\3.2.0\\nlog.mailkit.3.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\nlog.schema\\4.7.2\\nlog.schema.4.7.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\npgsql\\4.1.4\\npgsql.4.1.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\portable.bouncycastle\\1.8.5\\portable.bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\prometheus-net\\3.6.0\\prometheus-net.3.6.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
@@ -54,6 +55,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

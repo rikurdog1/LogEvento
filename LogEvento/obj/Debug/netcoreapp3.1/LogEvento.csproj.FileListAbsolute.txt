@@ -72,4 +72,5 @@ C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\De
 C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\User\Desktop\SIMF Documentos\Test\LogEvento2\LogEvento\LogEvento\obj\Debug\netcoreapp3.1\LogEvento.csproj.CoreCompileInputs.cache
